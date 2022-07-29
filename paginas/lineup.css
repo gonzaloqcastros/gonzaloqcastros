@@ -1,0 +1,10 @@
+@import url(../estilos/estilos.css);
+
+.lineup,
+.submit{
+    text-align: center;
+}
+
+.submit{
+    margin-bottom: 20px;
+}

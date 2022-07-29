@@ -1,0 +1,16 @@
+@import url(../estilos/estilos.css);
+
+h1{
+    font-size: 70px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.merch{
+    margin-top: 0%;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+.merch h2{
+    font-size: 40px;
+}

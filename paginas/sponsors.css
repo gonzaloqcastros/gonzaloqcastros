@@ -1,0 +1,10 @@
+@import url(../estilos/estilos.css);
+
+h1{
+    font-size: 50px;
+    text-decoration: underline 5px pink;
+}
+
+.sponsors{
+    text-align: center;
+}

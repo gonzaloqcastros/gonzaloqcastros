@@ -1,0 +1,19 @@
+@import url(../estilos/estilos.css);
+
+h1 {
+    font-size: 50px;
+    text-decoration:underline ;
+    text-decoration-color: rgb(30, 255, 225);
+}
+
+.pregunta {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pregunta h2{
+    font-size: 34px;
+    text-align: left;
+    text-decoration: underline;
+    text-decoration-color: red;
+}

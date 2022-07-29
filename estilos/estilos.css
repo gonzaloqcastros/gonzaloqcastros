@@ -1,0 +1,137 @@
+html,
+body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Roboto', sans-serif;
+}
+
+ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+h1{
+        text-align: center;
+}
+
+a:hover{
+        color: orange;
+}
+.banner{
+        max-width: 100%;
+        max-height: auto;
+}
+
+.menu{
+        display: grid;
+        border: 3px solid black;
+        justify-content: space-between;
+        grid-template-columns: auto auto;
+
+}
+
+.menu_content {
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.menu_content li{
+        font-size: 20px;
+        margin-left: 40px;
+        margin-right: 10px;
+}
+
+.logo {
+        width: 200px;
+        background-image: url('recursos/logo.png');
+        background-size: 100px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        
+}
+
+.contenido{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        align-items: center;
+}
+
+.texto{
+        max-width: 700px;
+}
+
+.contenido h2{
+        font-family: 'Ibarra Real Nova', serif;
+        font-size: 50px;
+        background-color: rgb(0, 185, 25);
+        text-align: center;
+}
+
+.contenido p {
+
+        color: rgb(0, 0, 0);
+        font-weight: regular;
+        font-style: italic; 
+        font-size: 25px;
+        background-color: rgb(77, 255, 255);
+        font-family: 'Roboto', sans-serif;
+}
+
+.menu_footer{
+        border: 3px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+}
+
+.footer_help li,
+.footer_social li{
+        list-style: circle;
+}
+
+.footer_submit{
+        align-self: flex-end;
+}
+
+.footer_help,
+.footer_logo,
+.footer_social,
+.footer_submit{
+        margin-top: 20px;
+        margin-bottom: 20px;
+}
+
+/*
+        color: ;
+        background-color: ;
+        font-size: ;
+        font- weight: ;
+        font-family: ;
+        text-align: left/center/right ;
+
+        text-decoration: underline (ej.) ;
+        text-decoration-color: red ;
+        line-height: 20px;
+        letter-spacing: px;
+
+        display: inline ; block; none ;
+
+        margin-top/bottom/right/left: ; ESPACIADO EXTERNO
+        padding-top/bottom/right/left: ; ESPACIADO INTERNO
+        Border: ; LIMITE DEL ELEMENTO
+        width y height: ;
+        vertical-align: top/bottom ;
+
+        position: relative/absolute/fixed;
+                  top:20px / %
+                  /bottom:20px / %
+                  /left:20px / %
+                  /right:20px / %
+
+        .menu li:hover red
+
+/*
