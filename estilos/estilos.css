@@ -18,8 +18,10 @@ h1{
 a:hover{
         color: orange;
 }
+
 .banner{
         max-width: 100%;
+        min-width: 670px;
         max-height: auto;
 }
 
@@ -52,12 +54,10 @@ a:hover{
 }
 
 .contenido{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        align-items: center;
+        display: grid;
+        border: 3px solid black;
+        justify-content: space-between;
+        grid-template-columns: repeat(auto-fit, minmax(670px, 1fr));
 }
 
 .texto{
