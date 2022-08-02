@@ -1,8 +1,19 @@
 @import url(../estilos/estilos.css);
 
+.contenido_lineup{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
 .lineup,
 .submit{
     text-align: center;
+}
+
+.lineup_imagen{
+    max-width: 100%;
+    min-width: 50%;
+    min-height: 100%;
 }
 
 .submit{
