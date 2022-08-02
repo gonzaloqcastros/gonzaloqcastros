@@ -140,6 +140,28 @@ a:hover{
         color: white;
 }
 
+@media all and (max-width: 700px){
+
+
+        .texto{
+                grid-area: segundo;
+        }
+
+        .imagen_1,
+        .imagen_2,
+        .imagen_3,
+        .imagen_4 {
+                grid-area: primero;
+        }
+
+        .contenido{
+                grid-template-areas: 'primero'
+                'segundo';
+                margin-top: 50px;
+                margin-bottom: 50px;
+                background-color: rgb(20, 20, 20);
+        }
+}
 /*
         color: ;
         background-color: ;
