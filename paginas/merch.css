@@ -6,6 +6,9 @@ h1{
 }
 
 .merch{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
     margin-top: 0%;
     margin-bottom: 300px;
     text-align: center;

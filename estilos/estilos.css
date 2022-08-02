@@ -27,6 +27,8 @@ a:hover{
 }
 
 .banner{
+        padding: 0%;
+        margin: 0%;
         max-width: 100%;
         min-width: 670px;
         max-height: auto;
@@ -34,6 +36,8 @@ a:hover{
 
 .menu{
         display: grid;
+        min-width: 100%;
+        min-height: 100%;
         border: 3px solid black;
         background-color: rgb(20, 20, 20);
         justify-content: space-between;
