@@ -25,6 +25,13 @@ a:hover{
         color: orange;
 }
 
+.titulo{
+        background: #ddd;
+        background-size: 400%;
+        background-image: linear-gradient(to right, red 0%, orange 20%, yellow 40%, green 60%, rgb(32, 126, 250) 80%, rgb(198, 52, 255) 100%);
+        animation: animacion-titulo 8s infinite alternate;
+}
+
 .banner img{
         width: 100%;
         max-height: 100%;
@@ -83,6 +90,7 @@ a:hover{
 
 .texto{
         object-fit: cover;
+        display: grid;
         width: 100%;
         max-height: 100%;
         text-align: center;
@@ -113,6 +121,29 @@ a:hover{
         font-family: 'Roboto', sans-serif;
 }
 
+.ver_mas{
+        align-self: end;
+        margin-bottom: 20px;
+        opacity: 0.5;
+        transition-property: opacity, transform;
+        transition-duration: 0.5s;
+}
+
+.ver_mas a{
+        font-size: 30px;
+        text-decoration: none;
+        color: crimson;
+        background-color: pink;
+        padding: 10px;
+        border: 4px solid white;
+}
+
+.ver_mas:hover{
+        opacity: 1;
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+}
+
 .menu_footer{
         width: 100%;
         background-color: rgb(20, 20, 20);
@@ -139,6 +170,19 @@ a:hover{
         margin-top: 20px;
         margin-bottom: 20px;
         color: white;
+}
+
+@keyframes animacion-titulo {
+
+        0% {
+                background-position: left;
+        }
+
+        100%{
+                background-position: right;
+        }
+
+        
 }
 
 @media all and (max-width: 700px){
