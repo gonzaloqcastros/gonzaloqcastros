@@ -19,30 +19,63 @@
     <body>
 
         <header class="menu">  
-            
-            <div class="logo">
-                <img src="recursos/logo.png" alt="logo" title="logo" width="200" />
-            </div>
+            <nav class="navbar navbar-dark navbar-expand-sm">
+                <div class="container-fluid">
 
-            <nav>
-                <ul class="menu_content">
-                        <li>
-                            <a href="paginas/lineup.html">Lineup</a>
-                        </li>
-                        <li>
-                            <a href="paginas/info.html">Info</a>
-                        </li>
-                        <li>
-                            <a href="paginas/sponsors.html">Sponsors</a>
-                        </li>
-                        <li>
-                            <a href="paginas/merch.html">Merch</a>
-                        </li>
-                        <li>
-                            <a href="paginas/tickets.html">Tickets</a>
-                        </li>
-                </ul>    
-            </nav>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="recursos/logo.png" alt="logo" title="logo" width="150" />
+                    </a>
+
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="paginas/merch.html">Merch</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Info
+                                </a>
+
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="paginas/sponsors.html">Sponsors</a></li>
+                                    <li><a class="dropdown-item" href="paginas/lineup.html">Lineup</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="paginas/info.html">Preguntas frecuentes</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Registro</a>
+                            </li>
+                        </ul>
+                        <form action="" class="text-light">
+                            <div class="mb-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-4">
+                                <label for="password" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-4 form-check">
+                                <input type="checkbox" name="connected" class="form-check-input" id="">
+                                <label class="form-check-label" for="connected">Recordarme en este equipo</label>
+                            </div>
+
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary"> Iniciar sesión</button>
+                            </div>
+                        </form>              
+                    </div>
+                </div>
+              </nav>
             
         </header>
 

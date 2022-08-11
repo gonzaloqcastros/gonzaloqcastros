@@ -38,12 +38,7 @@ a:hover{
 }
 
 .menu{
-        display: grid;
-        width: 100%;
-        max-height: 100%;
         background-color: rgb(20, 20, 20);
-        justify-content: space-between;
-        grid-template-columns: 50% 50%;
 
 }
 
