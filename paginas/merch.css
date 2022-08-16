@@ -21,3 +21,22 @@ h1{
 .merch h2{
     font-size: 40px;
 }
+
+.slidermerch{
+    background-color: black;
+}
+.slidermerch img {
+    transition-duration: 0.5s;
+    opacity: 50%;
+    height: 650px;
+}
+
+.slidermerch img:hover{
+    transition-duration: 0.5s ;
+    transform: scale(1.1);
+    opacity: 100%;
+}
+
+.ver_mas{
+    text-align: center;
+}
