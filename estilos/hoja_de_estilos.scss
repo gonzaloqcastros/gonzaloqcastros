@@ -86,12 +86,12 @@ a{
     }
 
     h2{
-        @include font_titulos
+        @include font_titulos;
         text-align: center;
     }
 
     p{
-        @include font_texto
+        @include font_texto;
         font-weight: regular;
         font-style: italic;
     }
