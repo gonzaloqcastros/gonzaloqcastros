@@ -1,10 +1,16 @@
+@mixin font_texto {
+    color: white;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
+}
+@mixin font_titulos {
+    color: white;
+    font-size: 50px;
+    font-family: 'Ibarra Real Nova', serif;
+}
 $colortexto:white;
 $colorhover:orange;
 $fondo: rgb(20, 20, 20);
-$font_titulos: 'Ibarra Real Nova', serif;
-$font_size_titulos: 50px;
-$font_texto: 'Roboto', sans-serif;
-$font_size_texto: 25px;
 
 html,
 body {
@@ -80,18 +86,14 @@ a{
     }
 
     h2{
-        color: $colortexto;
-        font-family: $font_titulos;
-        font-size: $font_size_titulos;
+        @include font_titulos
         text-align: center;
     }
 
     p{
-        color: $colortexto;
-        font-family: $font_texto;
+        @include font_texto
         font-weight: regular;
         font-style: italic;
-        font-size: $font_size_texto;
     }
 
     .texto{
