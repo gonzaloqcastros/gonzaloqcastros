@@ -187,3 +187,20 @@ a{
         'segundo';
     }
 }
+
+.botoncito{
+    margin-bottom: 20px;
+    border: 1px red solid;
+    transition-property: transform;
+    transition-duration: 0.5s;
+
+    p{
+        @include font_texto;
+    }
+
+    &:hover{
+        opacity: 1;
+        transform: scale(1.2);
+        transition-duration: 0.5s;
+    }
+}
